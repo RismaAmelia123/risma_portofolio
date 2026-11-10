@@ -403,7 +403,7 @@ body{
     }
 
     .risma_project_container {
-        grid-template-colums: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 12px;
     }
 
@@ -416,12 +416,12 @@ body{
         flex-direction: column;
         align-items: flex-start;
     }
+}
 
-    @media (max-width: 480px) {
-        .risma_project_container {
-            grid-template-columns: 1fr;
-        .risma_project_card {
-            width: 100%;
-        }
+@media (max-width: 480px) {
+    .risma_project_container {
+        grid-template-columns: 1fr;
+    .risma_project_card {
+        width: 100%;
     }
 }
