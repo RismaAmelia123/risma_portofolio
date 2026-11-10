@@ -402,8 +402,13 @@ body{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .risma_project_container {
+        grid-template-colums: repeat(2, 1fr);
+        gap: 12px;
+    }
+
     .risma_project_card {
-        width: calc(50% - 8px);
+        width: 100%;
     }
 
     .risma_footer_container {
