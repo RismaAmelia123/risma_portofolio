@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.risma_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.risma_logo {
+    position: absolute;
+    left: 25px;
+    margin-left: 0;
+    width: auto;
+}
+
+.risma_logo h3 {
+    margin: 0;
+    color: black;
+}
+
+.risma_logo span {
+    color: #bc939b;
+}
+
+.risma_navbar h3 {
+    color: black;
+    margin-right: 5px;
+}
+
+.risma_navbar ul {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.risma_navbar li {
+    margin: 5px;
+}
+
+.risma_navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.risma_navbar a:hover {
+    color: #bc939b;
+}
+
+.risma_hero {
+    background-color:#fae7eb;
+;
+    width: 100%;
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.risma_hero-text {
+    width: 50%;
+}
+
+.risma_hero h3{
+    margin: 0;
+    font-size: 20px;
+}
+
+.risma_hero h1{
+    color: black;
+    font-size: 50px;
+    margin: 0;
+}
+
+.risma_hero span{
+    color: #bc939b;
+}
+
+.risma_subtitle {
+    margin: 5px;
+    font-size: 15px;
+    
+}
+
+.risma_description {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 400px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.risma_btn-about {
+    background-color: #bc939b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.risma_btn-contact {
+    background-color: white;
+    color: #bc939b;
+    padding: 10px 20px;
+    border: 1px solid #bc939b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.risma_btn-about:hover {
+    background-color: #94747a;
+}
+
+.risma_btn-contact:hover {
+    background-color: #bc939b;
+    color: white;
+}
+
+.risma_icon {
+    margin-right: 5px;
+}
+
+.risma_hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.risma_hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.risma_about_me {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.risma_about_text{
+    width: 70%;
+}
+
+.risma_about_text h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #bc939b;
+    margin-bottom: 12px;
+}
+
+.risma_about_text p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+    max-width: 650px;
+}
+
+.risma_about_info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.risma_about_info i{
+    color: #94747a;
+    margin-right: 5px;
+}
+
+.risma_about_info span {
+    font-size: 13px;
+}
+
+.risma_about_image {
+    width: 30%;
+    text-align: right;
+}
+
+.risma_about_image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.risma_skill {
+    width: 100%;
+    padding: 10px 25px 25px;
+    background-color: white;
+}
+
+.risma_skill h3 {
+    color:#bc939b;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.risma_skill_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.risma_skill_container span{
+    width: 100%;
+    padding: 17px 15px;
+    display: flex;
+    align-items: center;
+    background-color: #bc939b;
+    border-radius: 7px;
+    font-size: 12px;
+    color: white;
+}
+
+.risma_skill_container span i {
+    font-size: 20px;
+    color: white;
+    margin-right: 7px;
+    transition: 0.3s;
+
+}
+
+.risma_skill_container span i:hover {
+    transform: translateY(-2px);
+}
+
+.risma_project {
+    width: 100%;
+    padding: 10px 25px 25px;
+    background-color: white;
+}
+
+.risma_project h3 {
+    color: #bc939b;
+}
+
+.risma_project_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 12px;
+}
+
+.risma_project_card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.risma_project_card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.risma_project_info {
+    padding: 8px;
+}
+
+.risma_project_info h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.risma_project_info p {
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.risma_project_info a {
+    font-size: 12px;
+    color:#bc939b;
+    text-decoration: none;
+}
+
+.risma_project_info a:hover {
+    text-decoration: underline;
+}
+
+.risma_footer {
+    width: 100%;
+    padding: 15px 30px 8px;
+    background-color: #fae7eb;
+    color: #bc939b;
+}
+
+.risma_footer_container {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    gap: 15px;
+}
+
+.risma_footer_info h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.risma_footer_info p {
+    font-size: 10px;
+    margin: 3px;
+}
+
+.risma_footer_contact {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.risma_footer_contact i {
+    margin-right: 5px;
+}
+
+.risma_footer hr {
+    border: 0;
+    border-top: 1px solid #bc939b;
+    margin: 0 0 8px;
+}
+
+.risma_footer_copyright {
+    margin-top: 20px;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 680px) {
+    .risma_navbar {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .risma_logo {
+        position: static;
+    }
+
+    .risma_navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .risma_hero, .risma_about_me {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .risma_hero-text, .risma_hero-image, .risma_about_text, .risma_about_image {
+        width: 100%;
+    }
+
+    .risma_hero-image img {
+        height: auto;
+    }
+
+    .risma_hero h1 {
+        font-size: 36px;
+    }
+
+    .risma_about_image {
+        text-align: left;
+    }
+
+    .risma_skill_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .risma_project_card {
+        width: calc(50% - 8px);
+    }
+
+    .risma_footer_container {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    @media (max-width: 480px) {
+        .risma_project_card {
+            width: 100%;
+        }
+    }
+}
