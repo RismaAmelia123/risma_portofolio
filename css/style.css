@@ -421,6 +421,7 @@ body{
 @media (max-width: 480px) {
     .risma_project_container {
         grid-template-columns: 1fr;
+    }
     .risma_project_card {
         width: 100%;
     }
